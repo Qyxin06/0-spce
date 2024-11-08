@@ -1,0 +1,41 @@
+@font-face {
+    font-family: "sto";/*name the font*/
+    src: url("./strangething.ttf");/*font resource ;./ works better*/
+}
+#main-logo {
+    width:200px;
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+body {
+    
+    text-align: center;
+    text-shadow: 0px 0px 2px black;/*vertical horizontal blur color*/
+    color:005189;
+    font-family: "sto";/*the downloaded font*/
+    font-size: larger;
+ 
+}
+
+.btn {
+    background:white;/*按钮颜色是background而非color*/
+    padding: 6px 12px ;
+    border:none ;
+    font-family: "Orbitron", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    
+}
+
+.underline {
+    border-bottom: 5px solid white;
+    border-radius: 2px;
+}
+
+.hero {
+    background-image: url("https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExd3Y4M25wbGNhdzg3amwwYmp1cnhpeWRmY3p2ZWhjbnM5NGo1b242ZiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/tL5HmgfZi0Qow/giphy.gif");
+    background-size: cover;
+    padding:10px 0px 40px 0px;
+    margin: 0px;
+}
